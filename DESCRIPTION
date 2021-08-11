@@ -1,0 +1,20 @@
+Package: warfarin_doser
+Title: Store INR levels and communicate with the anticoagulation team
+Version: 0.0.0.9000
+Authors@R: person('Chris', 'Beeley', email = 'chris.beeley@gmail.com', role = c('cre', 'aut'))
+Description: This package serves two functions. Firstly it stores the 
+  results of INR tests for individuals who take warfarin, and visualises them. 
+  Secondly, it automatically sends emails to the team containing name, NHS number 
+  and DOB. These can easily be configured per user in the YAML file. THIS 
+  APPLICATION PUTS YOUR MEDICAL INFORMATION WHEREVER YOU HOST IT. ONLY DO THIS IF 
+  YOU UNDERSTAND THE RISKS. I may in the future add the ability to read the 
+  emails that come back with the warfaring dosing, but this will probably only 
+  work in Nottingham and will be hard
+License: GPL (>= 3)
+Imports: 
+    config (>= 0.3.1),
+    golem (>= 0.3.1),
+    shiny (>= 1.6.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
