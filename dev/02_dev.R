@@ -11,11 +11,13 @@
 #### CURRENT FILE: DEV SCRIPT #####
 ###################################
 
+stop() # in case I source this script by accident
+
 # Engineering
 
 ## Dependencies ----
 ## Add one line by package you want to add as dependency
-usethis::use_package( "thinkr" )
+usethis::use_package( "" )
 
 ## Add modules ----
 ## Create a module infrastructure in R/
